@@ -1,13 +1,14 @@
-import * as  React from "react";
+import * as React from 'react'
+import Layout from '../components/layout'
 
 const AboutPage = () => {
   return (
-    <main>
-      <h1>About Me</h1>
-      <p>Hello! I am the maker of this site using Gatsby</p>
-    </main>
+    <Layout pageTitle="About Me">
+      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    </Layout>
   )
-}  
+}
+
 export const Head = () => <title>About Me</title>
 
 export default AboutPage
